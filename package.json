@@ -19,11 +19,6 @@
     "src/",
     "README.md"
   ],
-  "scripts": {
-    "lint": "eslint 'src/**/*.js'",
-    "tags": "git push origin --tags",
-    "prepack": "oclif-dev readme && yarn tags"
-  },
   "author": "Kalinin Mitko",
   "homepage": "https://github.com/null-none/react-logger-hooks",
   "license": "MIT",
