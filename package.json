@@ -1,0 +1,43 @@
+{
+  "name": "react-logger-hooks",
+  "version": "0.0.1",
+  "description": "Simple react hooks logger.",
+  "keywords": [
+    "react",
+    "react-dom",
+    "react-native",
+    "hooks",
+    "react-hooks",
+    "react-hooks-logger",
+    "logger",
+    "redux-logger",
+    "flux"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "dist/",
+    "src/",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint 'src/**/*.js'",
+    "tags": "git push origin --tags",
+    "prepack": "oclif-dev readme && yarn tags"
+  },
+  "author": "Kalinin Mitko",
+  "homepage": "https://github.com/null-none/react-logger-hooks",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@oclif/dev-cli": "^1",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "react": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
